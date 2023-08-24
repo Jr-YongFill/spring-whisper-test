@@ -1,8 +1,8 @@
 package com.eastshine.whisperapi.service;
 
-import com.eastshine.whisperapi.model.request.TranscriptionRequest;
-import com.eastshine.whisperapi.model.request.WhisperTranscriptionRequest;
-import com.eastshine.whisperapi.model.response.WhisperTranscriptionResponse;
+import com.eastshine.whisperapi.dto.request.TranscriptionRequest;
+import com.eastshine.whisperapi.dto.request.WhisperTranscriptionRequest;
+import com.eastshine.whisperapi.dto.response.WhisperTranscriptionResponse;
 import com.eastshine.whisperapi.openaiclient.OpenAIClient;
 import com.eastshine.whisperapi.openaiclient.OpenAIClientConfig;
 import lombok.RequiredArgsConstructor;

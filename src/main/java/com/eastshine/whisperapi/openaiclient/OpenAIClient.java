@@ -1,11 +1,11 @@
 package com.eastshine.whisperapi.openaiclient;
 
-import com.eastshine.whisperapi.model.request.WhisperTranscriptionRequest;
-import com.eastshine.whisperapi.model.response.WhisperTranscriptionResponse;
+import com.eastshine.whisperapi.dto.request.WhisperTranscriptionRequest;
+import com.eastshine.whisperapi.dto.response.WhisperTranscriptionResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+
 @FeignClient(
         name = "openai-service",
         url = "${openai-service.urls.base-url}",

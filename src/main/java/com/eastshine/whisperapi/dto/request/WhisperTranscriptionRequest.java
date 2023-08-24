@@ -1,4 +1,4 @@
-package com.eastshine.whisperapi.model.request;
+package com.eastshine.whisperapi.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

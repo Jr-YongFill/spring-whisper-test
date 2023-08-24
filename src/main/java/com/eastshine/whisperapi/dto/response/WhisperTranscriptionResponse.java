@@ -1,4 +1,4 @@
-package com.eastshine.whisperapi.model.response;
+package com.eastshine.whisperapi.dto.response;
 
 import lombok.Data;
 
